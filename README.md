@@ -9,11 +9,13 @@
 
 RescuNet is a comprehensive platform designed to revolutionize emergency response operations. By integrating AI-powered aerial surveillance, advanced graph-based routing, and real-time text analysis, RescuNet empowers responders to locate survivors, identify hazards, and navigate complex disaster zones with unprecedented efficiency.
 
-# RescuNet_Computer_Vison
+# RescuNet Computer Vison
 
 ### 🚁 Aerial Intelligence
 - **Real-Time Detection**: Utilizes **YOLOv11** to detect survivors, fire, and smoke hazards instantly from drone video feeds.
-- **Dual-Mode Surveillance**: Supports both **Thermal** (Person Detection) and **RGB** (Fire & Smoke Detection) modes.
-  - **Fire**: Detected with **Red** bounding boxes.
-  - **Smoke**: Detected with **Gray** bounding boxes.
-- **Low-Latency Streaming**: WebSocket-based architecture ensures real-time video transmission and processing.
+- **Dual-Mode Surveillance**: Supports both **Thermal** (Person Detection) and **RGB** (Fire, people, Smoke, and cars Detection) modes.
+  - **RGB**
+    - **Smoke, fire**: **YOLOV11m** model is used to detect this featsures as they are comples.
+    - **Cars, People**: two **YOLOV11s** model is used to detect this featsures to make the RGB model light and have low latency.
+  - **Thermal**: **YOLOV11s** model is used to detect this featsures to make the RGB model light and have low latency.
+  - 
