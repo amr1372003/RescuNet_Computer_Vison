@@ -1,7 +1,7 @@
 # RescuNet
 
 <div align="center" style="padding: 0; margin: 0; top: 0;">
-  <img src="./docs/assets/rescunet.png" alt="RescuNet Text" width="300" />
+  <img src="rescunet.png" alt="RescuNet Text" width="300" />
   <p><b>Next-Gen Disaster Response Intelligence</b></p>
   <p>
     <a href="#key-features">Key Features</a> •
