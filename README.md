@@ -3,13 +3,6 @@
 <div align="center" style="padding: 0; margin: 0; top: 0;">
   <img src="rescunet.png" alt="RescuNet Text" width="300" />
   <p><b>Next-Gen Disaster Response Intelligence</b></p>
-  <p>
-    <a href="#key-features">Key Features</a> •
-    <a href="#tech-stack">Tech Stack</a> •
-    <a href="#installation">Installation</a> •
-    <a href="#usage">Usage</a> •
-    <a href="#license">License</a>
-  </p>
 </div>
 
 ---
