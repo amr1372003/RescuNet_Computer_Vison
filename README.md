@@ -29,10 +29,6 @@ The Computer Vision module provides real-time intelligence using RGB and Thermal
 
 ---
 
-If you want, I can also rewrite your **entire README** to integrate these links and add the images for visualization correctly so they show up.
-
----
-
 ## 🚁 Aerial Intelligence Features
 
 ### 🔍 Real-Time Detection
