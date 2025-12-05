@@ -20,12 +20,16 @@ By combining **aerial computer vision**, **graph-based rescue route optimization
 
 # 📸 RescuNet Computer Vision Module
 
-The Computer Vision module provides real-time intelligence using **RGB** and **Thermal** drone footage, powered by custom-trained **YOLOv11** models.
+The Computer Vision module provides real-time intelligence using RGB and Thermal drone footage, powered by custom-trained YOLOv11 models.
 
-> **Team Contribution:**
->
-> * **Maher** developed and trained the **Fire & Smoke Detection Model** (YOLOv11m).
-> * **Amr Hassan** developed the **RGB People & Car Detection Models**, and **Thermal Person Detection Model**.
+**Team Contribution:**
+
+* [Mohamed Maher](https://github.com/Maherr11) developed and trained the Fire & Smoke Detection Model (YOLOv11m).
+* [Amr Hassan](https://github.com/amr1372003) developed the RGB People & Car Detection Models, and Thermal Person Detection Model.
+
+---
+
+If you want, I can also rewrite your **entire README** to integrate these links and add the images for visualization correctly so they show up.
 
 ---
 
@@ -55,9 +59,9 @@ RGB mode handles visible-spectrum hazards and object detection.
 
 | Feature      | Model        | Contributor | Reason                                |
 | ------------ | ------------ | ----------- | ------------------------------------- |
-| Smoke & Fire | **YOLOv11m** | **Maher**   | Handles complex patterns & occlusions |
-| Cars         | **YOLOv11s** | Amr         | Lightweight + real-time speed         |
-| People       | **YOLOv11s** | Amr         | High FPS requirement                  |
+| Smoke & Fire | **YOLOv11m** | **Mohamed**   | Handles complex patterns & occlusions |
+| Cars         | **YOLOv11s** | **Amr**         | Lightweight + real-time speed         |
+| People       | **YOLOv11s** | **Amr**          | High FPS requirement                  |
 
 ---
 
@@ -67,7 +71,7 @@ Optimized for detecting people through smoke, fog, and darkness.
 
 | Feature          | Model        | Contributor | Reason                                   |
 | ---------------- | ------------ | ----------- | ---------------------------------------- |
-| Person Detection | **YOLOv11s** | Amr         | Lightweight & fast for onboard inference |
+| Person Detection | **YOLOv11s** | **Amr**          | Lightweight & fast for onboard inference |
 
 ---
 
