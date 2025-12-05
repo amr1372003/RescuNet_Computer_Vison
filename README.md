@@ -39,7 +39,7 @@ Runs YOLOv11 models for detecting:
 * Fire
 * Smoke
 * Cars
-* Heat signatures (Thermal)
+* Survivors (Thermal)
 
 ---
 
